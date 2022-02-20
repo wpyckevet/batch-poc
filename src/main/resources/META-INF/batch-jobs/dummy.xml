@@ -1,0 +1,15 @@
+<job xmlns="https://jakarta.ee/xml/ns/jakartaee" version="2.0" id="dummy">
+    <step id="stepone">
+        <chunk item-count="100">
+            <reader ref="readerOne"/>
+            <writer ref="writerOne"/>
+        </chunk>
+        <next on="*" to="steptwo"/>
+    </step>
+    <step id="steptwo">
+        <chunk item-count="100">
+            <reader ref="readerTwo"/>
+            <writer ref="writerTwo"/>
+        </chunk>
+    </step>
+</job>
