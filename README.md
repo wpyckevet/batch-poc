@@ -1,4 +1,4 @@
-# jberet-test-one Project
+# jbatch-poc Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
